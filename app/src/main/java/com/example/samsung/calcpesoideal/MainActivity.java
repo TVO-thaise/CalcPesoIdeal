@@ -42,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                //colocar peso sem virgula para que o resultado seja correto
+
                 String mensagem = "Erro!";
                 float p = 0;
                 float h = Float.parseFloat(etAltura.getText().toString());
